@@ -1,0 +1,14 @@
+{
+  "name": "temp-converter",
+  "description": "Pequeña utilidad en Python para convertir temperaturas entre Celsius y Fahrenheit",
+  "template": {
+    "repository": "adborgon/GithubTemplate",
+    "materialized_from": "C:\\Bionic\\templates\\adborgon\\GithubTemplate",
+    "acquisition": "bionic-agent-mcp"
+  },
+  "created_at": "2026-10-14T08:49:57.397546+00:00",
+  "bootstrap": {
+    "script": "bionic_bootstrap.py",
+    "version": "1.0.0"
+  }
+}
