@@ -16,4 +16,4 @@ COPY src/ ./src/
 RUN useradd --create-home --shell /usr/sbin/nologin appuser
 USER appuser
 
-CMD ["python", "-m", "app"]
+ENTRYPOINT ["python", "-m", "app"]
